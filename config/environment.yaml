@@ -1,0 +1,20 @@
+# key可以照着这个来，value都是假的(*^▽^*)，根据自己项目来
+# 内容暂时这么多，格式需要固定这个，方便后面读取，具体怎么用下面会讲到
+
+user:
+  york:
+    username: 166xxxxxxxx
+    password: xxxxxxxxxxxxxxxx
+  laoyan:
+    username: 188xxxxxxxx
+    password: xxxxxxxxxxxxxxxx
+
+#test_url: https://www.baidu.com
+test_url: https://api.weixin.qq.com
+
+mysql:
+  db: test_system
+  host: 666.888.999.555
+  password: 123456
+  port: 3306
+  user: root

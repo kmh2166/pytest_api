@@ -1,0 +1,7 @@
+-
+  name: 编辑标签的接口
+  request:
+    method: POST
+    url: /cgi-bin/tags/update?access_token=
+    data: {"tag":{"id":23828,"name":"广东12345"}}
+  validate: None

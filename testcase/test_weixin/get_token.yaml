@@ -1,0 +1,60 @@
+#稳定版接口鉴权码
+-
+  name: 获取稳定版接口鉴权码
+  request:
+    method: POST
+    url: /cgi-bin/stable_token
+    data:
+      grant_type: client_credential
+      appid: wx6b11b3efd1cdc290
+      secret: 106a9c6157c4db5f6029918738f9529d
+  validate: None
+
+#反例
+#-
+#  name: 获取统一的接口鉴权码
+#  request:
+#    method: POST
+#    url: https://api.weixin.qq.com/cgi-bin/stable_token
+#    data:
+#      grant_type: None
+#      appid: wx6b11b3efd1cdc290
+#      secret: 106a9c6157c4db5f6029918738f9529d
+#  validate: None
+#
+#
+#-
+#  name: 获取统一的接口鉴权码
+#  request:
+#    method: POST
+#    url: https://api.weixin.qq.com/cgi-bin/stable_token
+#    data:
+#      grant_type: client_credential
+#      appid: None
+#      secret: 106a9c6157c4db5f6029918738f9529d
+#  validate: None
+#
+#
+#-
+#  name: 获取统一的接口鉴权码
+#  request:
+#    method: POST
+#    url: https://api.weixin.qq.com/cgi-bin/stable_token
+#    data:
+#      grant_type: client_credential
+#      appid: wx6b11b3efd1cdc290
+#      secret: None
+#  validate: None
+
+
+
+#-
+#  name: 获取统一的接口鉴权码
+#  request:
+#    method: GET
+#    url: https://api.weixin.qq.com/cgi-bin/token
+#    data:
+#      grant_type: client_credential
+#      appid: wx6b11b3efd1cdc290
+#      secret: 106a9c6157c4db5f6029918738f9529d
+#  validate: None
